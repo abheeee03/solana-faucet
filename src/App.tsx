@@ -31,7 +31,7 @@ function App() {
       const pubKey = new PublicKey(addressStr);
       const res = await connection.requestAirdrop(pubKey, solNum * LAMPORTS_PER_SOL);
       console.log(res);
-      toast.success(`Successfully Airdropped ${solNum} SOL to ${addressStr}`);
+      toast.success(`Successfully Airdropped ${solNum} to ${addressStr}`);
     } catch (err) {
       toast.error('Try Again After Some Time');
       console.log(err);
