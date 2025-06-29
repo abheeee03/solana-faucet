@@ -55,8 +55,8 @@ function App() {
           <div className="px-10 flex items-center border rounded-xl py-2 border-slate-200 justify-between md:min-w-4xl min-w-sm">
             <h1 className="text-3xl heading">Dropper</h1>
             <div className="flex gap-5">
-              <a href=""><FaGithub size={25} /></a>
-              <a href=""><FaXTwitter size={25} /></a>
+              <a href="https://github.com/abheeee03/solana-faucet"><FaGithub size={25} /></a>
+              <a href="https://x.com/_AbhayHere"><FaXTwitter size={25} /></a>
             </div>
           </div>
         </div>
